@@ -35,7 +35,7 @@
             </v-list-item-content>
           </template>
 
-          <v-list-group no-action sub-group v-for="(doce, index) in doces" :key="index">
+          <v-list-group  color="#B71C1C" no-action sub-group v-for="(doce, index) in doces" :key="index">
             <template v-slot:activator>
               <v-list-item-content>
                 <v-list-item-title>{{doce.nome}}</v-list-item-title>

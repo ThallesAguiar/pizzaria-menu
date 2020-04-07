@@ -36,7 +36,7 @@
             </v-list-item-content>
           </template>
 
-          <v-list-group no-action sub-group v-for="(picado, index) in picados" :key="index">
+          <v-list-group  color="#B71C1C" no-action sub-group v-for="(picado, index) in picados" :key="index">
             <template v-slot:activator>
               <v-list-item-content>
                 <v-list-item-title>{{picado.nome}}</v-list-item-title>
