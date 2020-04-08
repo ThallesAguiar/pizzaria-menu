@@ -9,7 +9,7 @@
         <v-list-group no-action sub-group>
           <template v-slot:activator>
             <v-list-item-content>
-              <v-list-item-title>Salgadas (molho de tomate mussarela e orégano)</v-list-item-title>
+              <v-list-item-title>Salgadas<br> (molho de tomate mussarela e orégano)</v-list-item-title>
             </v-list-item-content>
           </template>
 
@@ -20,7 +20,7 @@
               </v-list-item-content>
             </template>
 
-            <v-list-item link>
+            <v-list-item type="#B71C1C" link>
               <v-list-item-title>{{salgada.ingredientes}}</v-list-item-title>
             </v-list-item>
           </v-list-group>
@@ -31,7 +31,7 @@
         <v-list-group no-action sub-group>
           <template v-slot:activator>
             <v-list-item-content>
-              <v-list-item-title>Doces (leite condensado e mussarela)</v-list-item-title>
+              <v-list-item-title>Doces <br> (leite condensado e mussarela)</v-list-item-title>
             </v-list-item-content>
           </template>
 

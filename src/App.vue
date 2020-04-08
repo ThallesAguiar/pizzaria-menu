@@ -1,9 +1,10 @@
 <template>
   <div id="app">
     <Navigation />
-    <LigarBotao/>
+    <LigarBotao />
+
     <router-view />
-    <Rodape/>
+    <Rodape />
   </div>
 </template>
 
@@ -21,10 +22,11 @@ export default {
 </script>
 
 <style lang="scss">
-html, body{
+html,
+body {
   padding: 0;
   margin: 0;
-  background-image:url("./assets/fundo.jpg");
+  background-image: url("./assets/fundo.jpg");
   background-repeat: repeat;
 }
 

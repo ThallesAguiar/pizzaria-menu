@@ -1,5 +1,5 @@
 <template>
-  <v-footer bottom padless>
+  <v-footer bottom padless width="100%" dark>
     <v-card class="flex" flat tile color="#B71C1C">
 
       <v-card-text class="py-2 red--text text-center">
